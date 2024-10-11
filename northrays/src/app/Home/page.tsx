@@ -1,10 +1,10 @@
 import Hero from "./Hero";
-import contact from "./contact"
+import LandingPage from "./contact";
 const Headers = () => {
   return (
     <>
       <div>
-      <video
+        <video
           autoPlay
           loop
           muted
@@ -15,6 +15,7 @@ const Headers = () => {
         </video>
 
         <Hero />
+        <LandingPage />
       </div>
     </>
   );
