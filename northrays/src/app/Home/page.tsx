@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-
+import contact from "./contact"
 const Headers = () => {
   return (
     <>
