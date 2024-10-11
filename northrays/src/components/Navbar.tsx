@@ -12,9 +12,9 @@ const Navbar = () => {
 
     return (
         <>
-        <nav className="md:flex justify-between items-center p-3 h-16 bg-neutral-400">
+        <nav className="md:flex justify-between items-center p-3 h-16">
             <div className='flex justify-between'>
-                <div className="text-white text-xl lg:text-2xl font-bold">
+                <div className="text-[#023047] text-xl lg:text-2xl font-bold">
                     <Link href="/">North Rays</Link>
                 </div>
 
@@ -31,53 +31,53 @@ const Navbar = () => {
                     </div>
                     <span className="text-white text-3xl md:hidden cursor-pointer" onClick={toggleMenu}><RxCross1 /></span>
                 </div>
-                <span className='md:hidden'><hr /></span>
+                <span className='md:hidden bg-[#023047]'><hr style={{background:"#023047"}}/></span>
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/" className="text-white text-lg">
+                    <Link href="/" className="text-white hover:text-[#023047] text-xl font-bold">
                         Home
                     </Link>
                     {/* Line element */}
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
 
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/portfolio" className="text-white text-lg">
+                    <Link href="/portfolio" className="text-white hover:text-[#023047] text-xl">
                         Portfolio
                     </Link>
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
 
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/academy" className="text-white text-lg">
+                    <Link href="/academy" className="text-white hover:text-[#023047] text-xl">
                         Academy
                     </Link>
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
 
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/blog" className="text-white text-lg">
+                    <Link href="/blog" className="text-white hover:text-[#023047] text-xl">
                         Blog
                     </Link>
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
                 
                 
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/reviews" className="text-white text-lg">
+                    <Link href="/reviews" className="text-white hover:text-[#023047] text-xl">
                         Reviews
                     </Link>
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
                 <li className="relative mb-4 md:mb-0 group w-fit">
-                    <Link href="/contact" className="text-white text-lg">
+                    <Link href="/contact" className="text-white hover:text-[#023047] text-xl">
                         Contact
                     </Link>
-                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-white scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
+                    <div className="absolute left-0 bottom-0 h-[2px] w-full bg-[#023047] scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100 rounded-xl"></div>
                 </li>
 
 
                 <li className="mb-4 md:mb-0 block md:hidden">
-                    <button className="bg-[#FA8500] text-white py-2 px-4 rounded-md">Let's Talk</button>
+                    <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">Let's Talk</button>
                 </li>
             </ul>
 
