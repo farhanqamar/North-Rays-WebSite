@@ -1,34 +1,31 @@
-import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
-import contact from "./contact";
-
-
-
+import AboutUs from "./AboutUs";
+import Services from "./Services";
+import Footer from "./Footer";
+import Featured from "./Featured";
+import Contact from "./Contact";
 const Headers = () => {
   return (
-    <>
+    <div>
       <div>
-      <video
-          autoPlay
-          loop
-          muted
-          className="absolute top-0 z-[-1] w-full h-full object-cover bg-center bg-no-repeat filter blur-xl"
-        >
-          <source src="/bgvideo.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        {/* navbar */}
-        <Navbar/>
-
-        {/* Hero section */}
-        <div>
         <Hero />
-        </div>
-
-
-
       </div>
-    </>
+      <div>
+        <AboutUs />
+      </div>
+      <div>
+        <Services />
+      </div>
+      <div>
+        <Featured />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </div>
   );
 };
 
