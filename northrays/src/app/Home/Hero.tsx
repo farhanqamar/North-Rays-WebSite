@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="flex items-center pl-4 sm:pl-10 lg:pl-48 h-[92.5vh]">
               <div className="md:w-[800px] text-white text-justify">
                 <h1 className="font-light">
-                  Empowering Businesses in <br /> the Digital Age
+                  Empowering Businesses in the Digital Age
                 </h1>
                 <div className="leading-10 py-10 font-light">
                   <p className="px-2">

@@ -55,7 +55,7 @@ const featuredData: FeaturedItem[] = [
 const FeaturedCards = () => {
   return (
     <div className="px-4 sm:px-8 md:px-10 lg:px-12 py-36">
-      <h2 className="text-center text-2xl md:text-3xl font-bold mb-16">Our Key Benefits</h2>
+      <h2 className="text-center text-2xl md:text-3xl mb-16">Our Key Benefits</h2>
       
       <div className="grid grid-cols-1  lg:grid-cols-2 gap-6 px-8 lg:px-40">
         {featuredData.map((item) => (

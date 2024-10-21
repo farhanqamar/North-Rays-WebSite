@@ -8,9 +8,9 @@ import { serviceDetail } from './ServicesDetail';
 const Services = () => {
   return (
     <section>
-        <div className='bg-[#262B3F] text-white py-6'>
+        <div className='bg-[#262B3F] text-white py-16'>
             <div className='flex justify-center '>
-                <h1 data-aos="fade-right" className='text-3xl font-bold'>Services</h1>
+                <h1 data-aos="fade-right" className='text-4xl'>Services</h1>
             </div>
 
             <div className='flex flex-wrap justify-center gap-4 md:gap-8 xl:w-[1280px] m-auto py-10'>

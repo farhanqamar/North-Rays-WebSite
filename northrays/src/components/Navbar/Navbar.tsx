@@ -19,8 +19,8 @@ const Navbar = () => {
                 <div className='lg:flex justify-between items-center h-16 lg:w-[1450px] mx-auto'>
                     
                         <div className='flex justify-between items-center'>
-                            <div className="text-white text-xl lg:text-2xl font-bold">
-                                <Link href="/">North <span className='text-orange-400'>Rays</span></Link>
+                            <div className="text-white  font-bold">
+                                <Link href="/" className='text-xl lg:text-2xl'>North <span className='text-orange-400'>Rays</span></Link>
                             </div>
 
                             <div className="text-white text-3xl lg:hidden cursor-pointer" onClick={toggleMenu}>

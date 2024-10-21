@@ -22,14 +22,14 @@ const AboutUs = () => {
       window.removeEventListener('scroll', handleScroll);
     }
   }, [])
-  const containerHeight = 300
-  const translateY = Math.max(0, Math.min(scrollPosition / 3, containerHeight));
+  const containerHeight = 400
+  const translateY = Math.max(0, Math.min(scrollPosition / 8, containerHeight));
   const gradientOpacity = Math.min(scrollPosition / 200, 1);
 
 
   return (
     <section>
-      <div className=' flex flex-col md:flex-row lg:py-16 pl-2 lg:px-20'>
+      <div className=' flex flex-col md:flex-row lg:py-12 pl-2 lg:px-20'>
 
 
         
@@ -42,14 +42,14 @@ const AboutUs = () => {
             <div>
               <p className=' transition-transform duration-50 text-sm text-[#5b5f6e]' style={{ transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none' }}>About Us</p>
 
-              <h2 className='text-lg h-full flex items-start justify-center md:text-xl lg:text-2xl xl:text-4xl lg:w-[500px] xl:w-[800px] bg-clip-text text-transparent transition-tranform duration-300'
+              <h2 className='text-lg h-full flex items-start justify-center md:text-xl lg:text-2xl xl:text-6xl lg:w-[500px] xl:w-[800px] bg-clip-text text-transparent transition-tranform duration-300'
                 style={{
                   backgroundImage: `linear-gradient(90deg, rgba(255,0,150,${gradientOpacity}) 0%, rgba(0,204,255,${gradientOpacity}) 100%)`,
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: gradientOpacity === 0 ? 'black' : 'transparent',
                   transform: window.innerWidth >= 768 ? `translateY(${translateY}px)` : 'none'
                 }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil velit aperiam nam in facilis magni harum quasi, obcaecati aliquid explicabo corporis iste laudantium voluptas veniam ex! Minima, voluptatem optio!
+                  Empowering our global clientele to embrace modern technology, rethink processes, and elevate experiences
               </h2>
             </div>
 
